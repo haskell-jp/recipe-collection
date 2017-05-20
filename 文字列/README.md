@@ -28,7 +28,7 @@
 - [x] [文字を大文字・小文字に変換する](文字を大文字・小文字に変換する.md)
 - [x] [文字コードを変換する](文字コードを変換する.md)
 - [x] [テキストデータのエンコーディング方式を推測する](テキストデータの文字エンコーディング方式を推測する.md)
-- [ ] (文字列が空行か調べる)
+- [x] [文字列が空行か調べる](文字列が空行か調べる.md)
 - [x] [文字列が数値を表すか判定する](文字列が数値を表すか判定する.md)
 - [x] [文字列が表す数値を得る](文字列が表す数値を得る.md)
 - [ ] 文字列が複数の正規表現のすべてにマッチするか調べる
@@ -74,6 +74,7 @@ type String = [Char]
 {-# LANGUAGE OverloadedStrings #-}
 module Foo where
 
+import Data.Char
 import Data.Text (Text)
 import qualified Data.Text as T
 import qualified Data.Text.IO as T
