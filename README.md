@@ -1,5 +1,7 @@
 # Haskell レシピ集
 
+__このリポジトリの内容は[haskell-shoen](https://scrapbox.io/haskell-shoen/recipe-collection)に移転しました。__
+
 Haskell のレシピ集、あるいは逆引き辞典です。
 
 以下はカバーしません。
